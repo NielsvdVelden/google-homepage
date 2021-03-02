@@ -27,8 +27,15 @@ a:hover {
   padding-right: 22px;
 }
 
-nav:link {
-  text-decoration: none;
+.google-apps {
+    width: 18px;
+    height: 18px;
+    opacity: 0.5;
+    text-align: justify;
+}
+
+.google-apps:hover {
+    opacity: 0.85;
 }
 
 .nav-left {
@@ -44,20 +51,6 @@ nav:link {
   margin: 0;
   padding: 0;
   float: right;
-}
-
-.material-icons {
-  font-family: "Material Icons";
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;
-  line-height: 1;
-  letter-spacing: normal;
-  text-transform: none;
-  display: inline-block;
-  white-space: nowrap;
-  word-wrap: normal;
-  direction: ltr;
 }
 
 .sign-in {
@@ -110,6 +103,7 @@ nav:link {
   border: 1px solid #c6c6c6;
   color: #222;
   background-color: #f3f3f3;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 
 .footer {
